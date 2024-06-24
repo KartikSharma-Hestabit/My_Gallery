@@ -79,7 +79,6 @@ class GalleryRepoImpl @Inject constructor() : GalleryRepo {
                 }
 
                 galleryModelList.add(GalleryModel(tempDate, datedList))
-
             }
 
             Resource.Success(galleryModelList)
